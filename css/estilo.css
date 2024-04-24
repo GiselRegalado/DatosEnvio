@@ -24,8 +24,8 @@ body{
 .boton-link {
     display: inline-block;
     padding: 10px 20px;
-    background-color:#ece037;
-    color: black;
+    background-color: #ece037; /* Nuevo color añadido */
+    color: #fff;
     text-decoration: none;
     border-radius: 5px;
     border: none;
@@ -34,8 +34,9 @@ body{
 }
 
 .boton-link:hover {
-    background-color: #0056b3;
+    background-color: #d5bf2b; /* Color oscuro para el hover */
 }
+
 
 header{
   top: 0% ;           /* Pegada al top */
