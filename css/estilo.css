@@ -20,6 +20,23 @@ body{
     color: black;
     font-family: Ciber;
   }
+
+.boton-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton-link:hover {
+    background-color: #0056b3;
+}
+
 header{
   top: 0% ;           /* Pegada al top */
   position: fixed;   /*  Flotante */
